@@ -156,11 +156,53 @@ holberton_school-icon-search_2 {
     font-size: 25px;
 }
 
+
 @media only screen and (max-width: 575px) {
     [class^="carousel-control-"] {
         height: 15rem;
     }
+
+    .carousel-caption {
+        position: unset;
+        max-width: 730px;
+        margin-right: 6rem;
+        margin-left: 1rem;
+        
+    }
+
+    .carousel-item {
+        padding: 0;
+    }
+    .item-inner {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .item-inner img {
+        margin: auto;
+        display: block;
+        
+    }
+    
+    .carousel-caption {
+        margin-left: 3.5rem;
+        margin-right: 2.8rem;
+    }
+   
 }
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .carousel-item img {
+        margin-left: 50px;
+        float: left;
+    }
+    .carousel-item p {
+        margin-left: 120px;
+    }
+    
+}
+
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .popular-carousel {
@@ -171,4 +213,13 @@ holberton_school-icon-search_2 {
     .star-size {
         width: 1.02vw;
     }
+
+    .carousel-item img {
+        margin-left:  50px;
+
+    }
+    .carousel-item p {
+        margin-left: 120px;
+    }
+
 }
